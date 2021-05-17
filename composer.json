@@ -1,0 +1,29 @@
+{
+    "name": "wang-tech-commits/kuaidi100-api",
+    "description": "快递100物流快递查询",
+    "license": "MIT",
+    "homepage": "https://github.com/wang-tech-commits/kuaidi100-api",
+    "authors": [
+        {
+            "name": "Mr.wang",
+            "email": "15124532157@163.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MrwangTc\\Kuaidi100\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MrwangTc\\Kuaidi100\\ServiceProvider"
+            ]
+        }
+    }
+}
