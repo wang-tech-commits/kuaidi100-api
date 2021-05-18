@@ -51,8 +51,9 @@ class ExpressBase
     protected function getUrl($key)
     {
         $data = [
-            'synquery' => $this->config['domain'] . '/poll/query.do',
-            'mapquery' => $this->config['domain'] . 'poll/maptrack.do',
+            'synquery'   => $this->config['domain'] . '/poll/query.do',
+            'mapquery'   => $this->config['domain'] . '/poll/maptrack.do',
+            'autonumber' => $this->config['domain'] . '/autonumber/auto',
         ];
         return $data[$key];
     }
