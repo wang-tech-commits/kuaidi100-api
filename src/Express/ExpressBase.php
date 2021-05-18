@@ -52,6 +52,7 @@ class ExpressBase
     {
         $data = [
             'synquery' => $this->config['domain'] . '/poll/query.do',
+            'mapquery' => $this->config['domain'] . 'poll/maptrack.do',
         ];
         return $data[$key];
     }
